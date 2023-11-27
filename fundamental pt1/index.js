@@ -71,3 +71,18 @@ console.log(typeof null)
 year = 2023;
 console.log(year)
 console.log(typeof year);
+
+// declaring var, const, let
+
+
+let child_age = 4;
+
+// never use var in js=""
+
+var child_name = 'Ife';
+
+child_name = 'joakim';
+
+last_child_name = child_name;
+
+console.log(last_child_name)
