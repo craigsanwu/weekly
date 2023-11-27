@@ -125,3 +125,5 @@ let age_kate = now_p - 1980;
 console.log(age_aisha > age_kate) 
 
 console.log(age_kate > age_aisha)
+
+console.log(now - 1914> now - 1980) 
