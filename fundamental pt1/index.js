@@ -86,3 +86,42 @@ child_name = 'joakim';
 last_child_name = child_name;
 
 console.log(last_child_name)
+
+
+// basic operators in javascript
+
+const now = 2099;
+
+const age_child = 2099 - 1912;
+
+const age_sarah = 2043 - 2022;
+
+console.log(age_child , age_sarah)
+
+console.log(age_sarah *3, age_child /3, 2**3);
+
+console.log(age_child > age_sarah)
+
+// assignment operator
+
+let y = 10 + age_child;
+y += 25; //
+console.log(y)
+
+let x = 10 + 5; // x is 15
+x += 10; // x is  10 and + (first x) making x 25;
+x *=4 ; // 25 * x is 100. 
+x==
+x==
+console.log(x)
+
+
+// comparison operator
+const now_p = 2015;
+let age_aisha = now_p - 1914;
+
+let age_kate = now_p - 1980;
+
+console.log(age_aisha > age_kate)
+
+console.log(age_kate > age_aisha)
