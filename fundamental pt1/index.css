@@ -13,3 +13,20 @@ body {
     text-align: center;
     color: white;
   }
+
+  div {
+    display: inline;
+    display: block;
+    display: contents;
+    display: flex;
+    display: flexbox;
+    display: flow-root;
+    display: grid;
+    display: inline-block;
+    display: inline-flex;
+    display: inline-flexbox;
+    display: inline-table;
+    display: list-item;
+    display: none;
+    display: table;
+  }
