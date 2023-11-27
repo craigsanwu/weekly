@@ -39,3 +39,35 @@ console.log(my_country);
 console.log(my_population)
 
 console.log(my_continent)
+
+
+// data types in javascript
+
+// 1. Primitive Data Types 
+//         - string used for text let my_name = "Kayode";
+//         - number floating number e.g let age = 12;
+//         - boolean used for taking decision true or false;
+//         - undefined     
+//         - null  (empty value)
+//         - Symbol (not useful now)
+//         - BigInt 
+// 2. 
+
+false;
+console.log(false);
+console.log(typeof false);
+console.log(typeof 12);
+console.log(typeof "kayode");
+
+let my_continent2 = "Europe/Paris";
+my_continent2 = 'Europe/Paris';
+
+let javascriptisfunc = false;
+console.log(javascriptisfunc)
+
+// let year;
+
+console.log(typeof null)
+year = 2023;
+console.log(year)
+console.log(typeof year);
