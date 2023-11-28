@@ -8,3 +8,5 @@ const person: Person ={
     age: 10
 };
 
+console.log(person.name)
+console.log(person.age)
