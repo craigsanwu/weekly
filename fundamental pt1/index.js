@@ -198,12 +198,3 @@ let Airi = `I'm ${name_two}, a ${job} based in ${location} Village`;
 console.log(Airi);
 
 console.log("Airi")
-
-
-let age_req = 19;
-let isOldEnough = age_req >= 18;
-
-if (isOldEnough) {
-        console.log("Kate can now drive 😂😂")
-
-}
