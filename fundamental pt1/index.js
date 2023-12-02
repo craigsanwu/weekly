@@ -181,6 +181,18 @@ let location = " Shinshinotsu";
 
 
 
-let kayong  = " Hi I'm  " + name_one + 'a ' + job  + ' based in ' + location + ' Village' ; 
+// let kayong  = " Hi I'm  " + name_one + 'a ' + job  + ' based in ' + location + ' Village' ; 
 
-console.log(kayong);
+// good way of writting
+let name_two = "Airi"
+
+let Airi = `I'm ${name_two}, a ${job} based in ${location} Village`;
+// let name_two = " ";
+// let job = "indie hacker";
+// let birth_year = 2003;
+
+// let location = " Shinshinotsu";
+
+
+
+console.log(Airi);
