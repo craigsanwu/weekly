@@ -165,3 +165,7 @@ let johnBMI = john_mass / john_height **2;
 
 console.log (johnBMI,markHigherBMI);
 
+let markHigherBMI1 = markHigherBMI > johnBMI
+
+console.log(johnBMI,markHigherBMI,markHigherBMI1)
+
