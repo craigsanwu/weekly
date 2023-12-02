@@ -137,3 +137,31 @@ let p,q;
 p=q = 25 - 20 -5;
 console.log(x,y);
 
+// coding challenge 010
+
+// Mark and John are trying to compare their BMI (Body Mass Index), which is 
+// calculated using the formula:
+// BMI = mass / height ** 2 = mass / (height * height) (mass in kg 
+// and height in meter
+
+// const massMark = 78;
+// const heightMark = 1.69;
+
+// const massJohn = 95;
+// const heightJohn = 1.88;
+
+
+
+let mark_height = 1.69; // height in meters
+
+let mark_mass = 78; // mass in kg
+
+let john_mass = 95; // mass in kg
+let john_height = 1.88; // height in meters
+
+let markHigherBMI = mark_mass / mark_height **2;
+
+let johnBMI = john_mass / john_height **2;
+
+console.log (johnBMI,markHigherBMI);
+
