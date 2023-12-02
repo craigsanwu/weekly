@@ -129,3 +129,7 @@ console.log(age_kate > age_aisha)
 console.log(now - 1914> now - 1980)
 
 
+let p,q;
+
+p=q = 25 - 20 -5;
+console.log(x,y);
