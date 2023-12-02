@@ -169,3 +169,18 @@ let markHigherBMI1 = markHigherBMI > johnBMI
 
 console.log(johnBMI,markHigherBMI,markHigherBMI1)
 
+
+
+// strings and templates literals
+
+let name_one = "kayong ";
+let job = "indie hacker";
+let birth_year = 2003;
+
+let location = " Shinshinotsu";
+
+
+
+let kayong  = " Hi I'm  " + name_one + 'a ' + job  + ' based in ' + location + ' Village' ; 
+
+console.log(kayong);
