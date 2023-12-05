@@ -201,3 +201,8 @@ console.log(Airi);
 
 console.log("Airi")
 
+
+const myArray = [];                    // an array
+const myObject = {};                  // an object
+
+let myNumber = 
