@@ -210,3 +210,7 @@ let myNumber = 4;
 let myString = "Variables are awesome";
 
 let myBoolean = false;
+
+
+let myArray1 = [1, 2, 3];
+var theSameArray = new Array(1, 2, 3);
