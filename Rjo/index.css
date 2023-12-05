@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -31,4 +36,27 @@ html, body {
     background-color: rgba(0, 0, 0, 0.315);
     position: relative;
     z-index: 2;
+    color: #dadada;
+    display: flex;
+    
+}
+
+.nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    width: 100%;
+    background-color: red;
+}
+
+.nav h3 {
+    font-size: 2.4vw;
+    font-weight: 100;
+}
+
+.nav h4{
+    font-size: 2.4vw;
+    font-weight: 100;
 }
