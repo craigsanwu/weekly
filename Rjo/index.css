@@ -22,4 +22,13 @@ html, body {
     height: 100% ;
     width: 100%;
     object-fit: cover;
+    position: absolute;
+}
+
+.page1-content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+    position: relative;
+    z-index: 2;
 }
