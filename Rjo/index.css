@@ -38,7 +38,9 @@ html, body {
     z-index: 2;
     color: #dadada;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav{
