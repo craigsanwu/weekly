@@ -205,4 +205,6 @@ console.log("Airi")
 const myArray = [];                    // an array
 const myObject = {};                  // an object
 
-let myNumber = 
+let myNumber = 4;
+
+let myString = "Variables are awesome";
