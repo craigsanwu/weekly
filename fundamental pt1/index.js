@@ -208,3 +208,5 @@ const myObject = {};                  // an object
 let myNumber = 4;
 
 let myString = "Variables are awesome";
+
+let myBoolean = false;
