@@ -10,8 +10,16 @@ html, body {
     width: 100%;
 }
 
-#page1{
-    height: 100%;
+/* when using class its .(dot) while id its #(railway sign) */
+.page1{
+    height: 100vh;
     width: 100%;
-    background-color: red;
+    background-color: #dadada;
+    position: relative;
+}
+
+.page1 video {
+    height: 100% ;
+    width: 100%;
+    object-fit: cover;
 }
