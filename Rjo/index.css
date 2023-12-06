@@ -1,7 +1,12 @@
-@font-face {
+/* @font-face {
     font-family: ;
     src: url();
-}
+} */
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
 
 *{
     margin: 0;
@@ -61,4 +66,11 @@ html, body {
 .nav h4{
     font-size: 2.4vw;
     font-weight: 100;
+}
+ 
+.page1-content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29vw;
+    font-weight: 100;
+    line-height: 27vh;
 }
