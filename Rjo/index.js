@@ -11,8 +11,16 @@ let cursor = document.querySelector(".cursor");
 //  
 //     cursor.style.left = dets.x + "px";
 //     cursor.style.top = dets.y + "px";
-// })
+// });
 
-gsap.to(".cursor",{
-    x:500.
+
+page1Content.addEventListener("mousemove",function(dets){
+
+    gsap.to(cursor,{
+        x:dets.x,
+        y:dets.y
+    })
 })
+// gsap.to(".cursor",{
+//     x:500.
+// })
