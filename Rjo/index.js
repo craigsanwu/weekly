@@ -1,4 +1,5 @@
-console.log("Check online")
+function cursorEffect(){
+    console.log("Check online")
 
 
 // cursor position
@@ -39,3 +40,4 @@ page1Content.addEventListener("mousemove", function(){
         opacity:1
     })
 });
+}
