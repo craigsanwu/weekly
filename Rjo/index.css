@@ -100,3 +100,9 @@ nav h4{
 .page1-content h1 span{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #dad4d4;
+}
