@@ -28,6 +28,16 @@ html, body {
     position: relative;
 }
 
+.cursor{
+    height: 7vw;
+    width: 7vw;
+    background-color: #ff5f38;
+    /* background-repeat: no-repeat; */
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+
 .page1 video {
     height: 100% ;
     width: 100%;
