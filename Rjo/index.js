@@ -41,3 +41,4 @@ page1Content.addEventListener("mousemove", function(){
     })
 });
 }
+cursorEffect()
