@@ -24,3 +24,12 @@ page1Content.addEventListener("mousemove",function(dets){
 // gsap.to(".cursor",{
 //     x:500.
 // })
+
+
+page1Content.addEventListener("mouseentr", function(){
+
+});
+
+page1Content.addEventListener("mousemove", function(){
+
+});
