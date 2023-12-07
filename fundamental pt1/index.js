@@ -197,4 +197,20 @@ let Airi = `I'm ${name_two}, a ${job} based in ${location} Village`;
 
 console.log(Airi);
 
+
+
 console.log("Airi")
+
+
+const myArray = [];                    // an array
+const myObject = {};                  // an object
+
+let myNumber = 4;
+
+let myString = "Variables are awesome";
+
+let myBoolean = false;
+
+
+let myArray1 = [1, 2, 3];
+var theSameArray = new Array(1, 2, 3);
