@@ -1,4 +1,4 @@
-- Riki wiki Website
+- Ricky wiki Website
 - Doctor Appoinment
 - Portfolio
 - Sushi Website
