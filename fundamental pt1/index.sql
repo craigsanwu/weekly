@@ -21,3 +21,12 @@ SELECT
 FROM Sales
 INNER JOIN ProductToYear
   USING (product_id, year);
+
+
+
+--    596 solution code
+
+SELECT class
+FROM Courses
+GROUP BY 1
+HAVING COUNT(*) >= 5;
