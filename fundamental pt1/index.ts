@@ -76,3 +76,20 @@ function* fibGenerator(): Generator<number, any, number> {
       arr[2] = arr[0] + arr[1];
     }
   }
+
+
+//   2649 sol
+
+type MultidimensionalArray = (MultidimensionalArray | number)[];
+
+function* inorderTraversal(
+  arr: MultidimensionalArray
+): Generator<number, void, unknown> {
+  for (const item of arr) {
+    if (typeof item === 'number') {
+      yield item;
+    } else {
+      yield* inorderTraversal(item);
+    }
+  }
+}
