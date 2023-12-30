@@ -34,6 +34,8 @@ page1Content.addEventListener("mouseentr", function(){
     })
 });
 
+
+
 page1Content.addEventListener("mousemove", function(){
     gsap.to(cursor,{
         scale:0,
